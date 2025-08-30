@@ -1,0 +1,11 @@
+import axios from "axios";
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3000/api/";
+export const api = axios.create({
+  baseURL: API_URL,
+  timeout: 10000,
+  timeoutErrorMessage:
+    "Network timeout. Check your internet connection and try again.",
+  headers: {
+    "Content-Type": "application/json",
+  },
+});
