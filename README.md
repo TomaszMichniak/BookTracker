@@ -60,9 +60,9 @@ The application will be available by default at: http://localhost:5173
 
 ## API – Main Endpoints
 
-- `GET /books` – fetch the list of books
-- `POST /books` – add a new book
-- `PATCH /books/:id/read` – mark a book as read
+- `GET api/books` – fetch the list of books
+- `POST api/books` – add a new book
+- `PATCH api/books/:id/read` – mark a book as read
 
 ---
 
